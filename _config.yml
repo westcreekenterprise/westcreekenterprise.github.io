@@ -1,0 +1,136 @@
+# Jekyll Config
+baseurl: "/"
+permalink: pretty
+title: "Jekyll Advance"
+collections_dir: collections
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  indentWidth: 4
+  style: compact
+  precision: 10
+
+collections:
+  services:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  team:
+    output: true
+    permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /blog/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: services
+    values:
+      layout: service
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "images"
+    values:
+      image: true
+  - scope:
+      path: "categories"
+    values:
+      permalink: /category/:basename/
+  - scope:
+      path: "pages"
+    values:
+      permalink: /:basename/
+
+# Theme Config
+google_analytics_id: ""
+enable_dark_mode: true
+enable_fixed_header: true
+
+colors:
+  primary: "#dc132c"
+  secondary: "#ff9c07"
+
+fonts:
+  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+  heading: "Source Sans Pro"
+  base: "Source Sans Pro"
+  monospace: "Fira Mono"
+
+logo:
+  logo: assets/images/logo/logo.png
+  logo_mobile: assets/images/logo/logo-mobile.png
+  logo_invert: assets/images/logo/logo-invert.png
+  logo_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  logo_desktop_height: "30px"
+  logo_desktop_width: "132px"
+  logo_mobile_height: "30px"
+  logo_mobile_width: "34px"
+
+footer:
+  enable_contact_details: true
+  contact_details_heading: "Contact"
+
+  enable_social_media_icons: true
+
+  enable_menu_footer_primary: true
+  footer_primary_menu_title: "Advance"
+  enable_menu_footer_secondary: true
+  footer_secondary_menu_title: "About"
+  enable_menu_footer_tertiary: true
+  footer_tertiary_menu_title: "Support"
+  enable_bottom_menu: true
+
+  enable_copyright: true
+  copyright: "© 2021 Zerostatic Themes"
+
+contact:
+  show_contact_details: true
+
+enable_sidebar_services: true
+enable_breadcrumbs_services: true
+enable_sidebar_projects: false
+enable_breadcrumbs_projects: true
+
+# Plugins Config
+plugins:
+  - jekyll-environment-variables
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  debug: false
+  collection: "posts"
+  per_page: 5
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  indexpage: "index"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

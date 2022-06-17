@@ -1,0 +1,46 @@
+---
+layout: default
+body_classes: page-post
+---
+
+{% if page.hero.enabled %}
+  {% include components/hero.html 
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
+    text_color=page.hero.text_color
+    background_image=page.hero.background_image
+    background_image_blend_mode=page.hero.background_image_blend_mode
+    background_color=page.hero.background_color
+    background_gradient=page.hero.background_gradient
+    fullscreen_mobile=page.hero.fullscreen_mobile
+    fullscreen_desktop=page.hero.fullscreen_desktop
+    height=page.hero.height
+    buttons=page.hero.buttons
+  %}
+{% else %}
+  {% include components/title.html
+    title=page.title
+    image=page.image
+    date=page.date
+    align="center"
+  %}
+{% endif %}
+
+<div class="strip">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        {% if page.authors %}
+          {% for author in page.authors %}
+            {% include blocks/author.html 
+            author=author
+            style='row'
+            show_author_name=true
+          %}
+          {% endfor %}
+        {% endif %}
+        <div class="content">{{ content }}</div>
+      </div>
+    </div>
+  </div>
+</div>
