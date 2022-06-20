@@ -1,7 +1,7 @@
 # Jekyll Config
 baseurl: "/"
 permalink: pretty
-title: "Jekyll Advance"
+title: "Human-Computer Interaction+Design Lab."
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -60,7 +60,7 @@ enable_dark_mode: true
 enable_fixed_header: true
 
 colors:
-  primary: "#dc132c"
+  primary: "#993300"
   secondary: "#ff9c07"
 
 fonts:
@@ -86,15 +86,15 @@ footer:
   enable_social_media_icons: true
 
   enable_menu_footer_primary: true
-  footer_primary_menu_title: "Advance"
+  footer_primary_menu_title: "hci+d lab."
   enable_menu_footer_secondary: true
-  footer_secondary_menu_title: "About"
+  footer_secondary_menu_title: "Work"
   enable_menu_footer_tertiary: true
-  footer_tertiary_menu_title: "Support"
-  enable_bottom_menu: true
+  footer_tertiary_menu_title: "    "
+  enable_bottom_menu: false
 
   enable_copyright: true
-  copyright: "© 2021 Zerostatic Themes"
+  copyright: "© 2021 Human-Computer Interaction+Design Lab."
 
 contact:
   show_contact_details: true
