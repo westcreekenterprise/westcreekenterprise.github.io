@@ -1,25 +1,25 @@
 ---
 layout: home
 permalink: "/"
-title: "hci+d lab. | Seoul National University"
-description: "Human-Computer Interaction+Design Lab. of Seoul National University"
+title: "West Creek Enterprise LLC"
+description: "We offer end-to-end lead services to empower and maximize the potential of your sales team"
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: West Creek Enterprise LLC
 
 hero:
   enabled: true
-  heading: "Human-Computer Interaction+Design Lab."
-  sub_heading: "conducts research on Human-Computer Interaction, Human-AI Interaction, Social Computing, Robot Journalism, Information Visualization and more."
+  heading: "<b>West Creek Enterprise LLC<b>"
+  sub_heading: "We offer end-to-end lead services to empower and maximize the potential of your sales team"
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false
-  background_image: "/assets/images/home/ibk.jpg"
+  background_image: "/assets/images/home/industrialequipmentservices.jpg"
   background_image_blend_mode: false # "overlay", "multiple", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: 700px #false # "800px"
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "Research"
         url: ""
@@ -38,23 +38,42 @@ hero:
 
 services:
   enabled: true
-  heading: "Research"
+  heading: "Our Services"
   sub_heading: ""
-  limit: 6
+  limit: 3
   sort: "weight" # 'date'
-  view_more_button_enabled: true
+  view_more_button_enabled: false
   view_more_button_text: "View All Services"
   view_more_button_link: "/services"
   hide_thumbnail: false
   hide_icon: false
   hide_description: false
 
+partners:
+  enabled: true
+  limit: 5
+  sort: "weight" # 'date'
+
+projects:
+  enabled: true
+  align: right
+  heading: "Lead Generation Platform (LGP)"
+  sub_heading: "Learn how the West Creek Enterprise LGP will drive your salesforce to success"
+  limit: 2
+  sort: "weight" # 'date'
+  view_more_button_enabled: true
+  view_more_button_text: "Learn More"
+  view_more_button_link: "/projects"
+  hide_thumbnail: false
+  hide_description: true
+
+
 intro:
   enabled: true
   align: left
-  image: "/assets/images/home/lab_members.jpg"
-  heading: "<strong>hci+d lab.</strong>  Members"
-  sub_heading: "We are an interdisciplinary group whose members come from social science, computer science, art, design, music and more. Meet our members from following page."
+  image: "/assets/images/home/sunny_isles_200px.png"
+  heading: "How it Began"
+  sub_heading: "John Sokol started West Creek Enterprise in July 2022. With 3 years of experience as a data scientist in the equipment finance industry, John builds solutions to the most pressing business problems by creatively applying his passion for data science."
   features:
     enabled: false
     list:
@@ -65,7 +84,7 @@ intro:
   buttons:
     enabled: true
     list:
-      - text: "People"
+      - text: "About"
         url: "/about"
         external: false
         fa_icon: "fas fa-chevron-right"
@@ -73,29 +92,12 @@ intro:
         outline: false
         style: "primary"
 
-partners:
-  enabled: true
-  limit: 5
-  sort: "weight" # 'date'
-
-projects:
-  enabled: true
-  heading: "Projects"
-  sub_heading: "View a portfolio of our projects and recent work."
-  limit: 2
-  sort: "weight" # 'date'
-  view_more_button_enabled: true
-  view_more_button_text: "View Our Portfolio"
-  view_more_button_link: "/projects"
-  hide_thumbnail: false
-  hide_description: true
-
 outro:
   enabled: true
   align: center
   image: false
-  heading: Get in touch with us!
-  sub_heading: "If you are interested in working with us, contact us."
+  heading: "Reach out to Us!"
+  sub_heading: "Email john@westcreekenterprise.com or call directly anytime at 609-290-9340 for a free consultation"
   features:
     enabled: false
     list:
@@ -104,14 +106,14 @@ outro:
   buttons:
     enabled: true
     list:
-      - text: "Contact Us"
+      - text: "Contact"
         url: "/contact"
         external: false
         size: "large"
 
 posts:
-  enabled: true
-  heading: hci+d lab. News
+  enabled: false
+  heading:
   limit: 3
   sort: "date"
   view_more_button_enabled: true

@@ -1,12 +1,12 @@
 ---
-title: "User Experience"
-description: "Understanding the needs of the user and creating product solutions."
+title: "Lead Quality Assessment"
+description: "Ranking and prioritization of leads from attributes specific to your company's goals and objectives"
 date: 2018-11-28T15:15:34+10:00
 weight: 2
 header_transparent: true
-icon: "assets/images/services/icons8-user-engagement-male-100.png"
-thumbnail: "https://source.unsplash.com/ETRPjvb0KM0/640x360"
-image: ""
+# icon: "assets/images/services/Lead_Scoring.png"
+thumbnail: "assets/images/services/Lead_Scoring.png"
+image: "assets/images/services/Lead_Scoring.png"
 
 hero:
   enabled: true

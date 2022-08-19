@@ -1,12 +1,12 @@
 ---
-title: "Branding"
-description: "The expression of a brand including its name, trademark, and visual appearance."
-date: 2019-10-03
+title: "Lead Enhancement"
+description: "Data enrichment services for company and contact attributes to drive important business decisions"
+date: 2022-8-18
 weight: 3
 fa_icon: false
-icon: "assets/images/services/icons8-color-palette-100.png"
-thumbnail: "https://source.unsplash.com/-MZ7gS6abg4/640x360"
-image: "https://source.unsplash.com/-MZ7gS6abg4/640x360"
+# icon: "assets/images/services/icons8-color-palette-100.png"
+thumbnail: "assets/images/services/hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-grass-forest-conservation-Growing-Trees-for-Profit-dt-Feature.jpg"
+image: "assets/images/services/hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-grass-forest-conservation-Growing-Trees-for-Profit-dt-Feature.jpg"
 ---
 
 # Creating Modern Websites

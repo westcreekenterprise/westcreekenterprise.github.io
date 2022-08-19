@@ -1,7 +1,7 @@
 # Jekyll Config
 baseurl: "/"
 permalink: pretty
-title: "Human-Computer Interaction+Design Lab."
+title: "West Creek Enterprise LLC "
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -70,12 +70,12 @@ fonts:
   monospace: "Fira Mono"
 
 logo:
-  logo: assets/images/logo/logo.png
-  logo_mobile: assets/images/logo/logo-mobile.png
-  logo_invert: assets/images/logo/logo-invert.png
-  logo_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_desktop_height: "30px"
-  logo_desktop_width: "132px"
+  logo: "assets/images/logo/wce_orange-transparent.png"
+  logo_mobile: "assets/images/logo/logo-mobile.png"
+  logo_invert: "assets/images/logo/wce_inverted-transparent.png"
+  logo_invert_mobile: "assets/images/logo/logo-invert-mobile.png"
+  logo_desktop_height: "35px"
+  logo_desktop_width: "115px"
   logo_mobile_height: "30px"
   logo_mobile_width: "34px"
 
@@ -83,18 +83,18 @@ footer:
   enable_contact_details: true
   contact_details_heading: "Contact"
 
-  enable_social_media_icons: true
+  enable_social_media_icons: false
 
-  enable_menu_footer_primary: true
-  footer_primary_menu_title: "hci+d lab."
-  enable_menu_footer_secondary: true
+  enable_menu_footer_primary: false
+  footer_primary_menu_title: "West Creek Enterprise LLC"
+  enable_menu_footer_secondary: false
   footer_secondary_menu_title: "Work"
-  enable_menu_footer_tertiary: true
+  enable_menu_footer_tertiary: false
   footer_tertiary_menu_title: "    "
   enable_bottom_menu: false
 
   enable_copyright: true
-  copyright: "© 2021 Human-Computer Interaction+Design Lab."
+  copyright: "© 2022 West Creek Enterprise LLC"
 
 contact:
   show_contact_details: true

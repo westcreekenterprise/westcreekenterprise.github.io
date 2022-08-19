@@ -1,12 +1,12 @@
 ---
-title: "Modern Office Design"
-description: "In contrast subsymbolic processing specifies no such rules a priori and relies on emergent properties of processing units"
-date: 2018-12-20
+title: "Retrieve Company/Vendor Information"
+description: ""
+date: 2022-08-10
 weight: 1
 header_transparent: true
-thumbnail: "https://source.unsplash.com/N5RN0JE5kaY/640x360"
-image: "https://source.unsplash.com/KzPefInJW58/640x360"
-client: "Zero Developments Pty Ltd"
+thumbnail: "assets/images/projects/lead_generation.jpg"
+image: "assets/images/projects/lead_generation.jpg"
+client: "Company name, URL, Phone number, Address, and Website Intelligence"
 
 hero:
   enabled: true

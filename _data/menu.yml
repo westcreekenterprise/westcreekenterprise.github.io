@@ -2,63 +2,56 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: People
-    url: /team/
+  - name: Lead Generation Platform
+    url: /projects/
     weight: 2
-  - name: Research
-    url: /services/
-    weight: 3
-    child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-  - name: Projects
-    url: /projects/
-    weight: 4
-  - name: Publications
-    url: /projects/
+    #child:
+    #  - name: "Retrieve Company/Vendor Information"
+    #    url: /services/web-development/
+    #  - name: "Retrieve Contacts"
+    #    url: /services/user-experience/
+  #- name: Pricing
+  #  url: /services/
+  #  weight: 3
+  - name: About
+    url: /about/
     weight: 5
-  - name: News
-    url: /blog/
-    weight: 6
-    
+  - name: Contact
+    url: /contact/
+    weight: 4
+
 footer_primary:
-  - name: Home
+  - name: Lead Generation
     url: /
     weight: 1
-  - name: People
+  - name: Lead Quality Assessment
     url: /team/
     weight: 2
-  - name: News
+  - name: Lead Enhancement
     url: /blog/
     weight: 3
-  
-footer_secondary:
-  - name: Research
-    url: /services/
-    weight: 1
-  - name: Projects
-    url: /projects/
-    weight: 2
-  - name: Publications
-    url: /services/
-    weight: 3
-  
-# footer_tertiary:
-#   - name: Contact
-#     url: /contact/
-#     weight: 1
-#   - name: Buy Now
-#     url: https://www.zerostatic.io/theme/jekyll-advance/
+
+
+#footer_secondary:
+#  - name: Research
+#    url: /services/
+#    weight: 1
+#  - name: Projects
+#    url: /projects/
+#    weight: 2
+#  - name: Publications
+#    url: /services/
+#    weight: 3
+
+#footer_tertiary:
+#   - name: http://westcreekenteprise.com
+#     url: http://westcreekenteprise.com
 #     weight: 2
 
-# bottom:
-#   - name: Privacy Policy
-#     url: /privacy-policy/
-#     weight: 3
-#   - name: Terms and Conditions
-#     url: /terms-and-conditions/
-#     weight: 4
+bottom:
+   - name: Privacy Policy
+     url: /privacy-policy/
+     weight: 3
+   - name: Terms and Conditions
+     url: /terms-and-conditions/
+     weight: 4

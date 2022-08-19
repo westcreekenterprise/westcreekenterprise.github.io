@@ -1,12 +1,12 @@
 ---
-title: "Water Works Revitalisation"
-description: "Breathing new life into old industrial estates"
+title: "Retrieve Contacts"
+description: ""
 date: 2018-12-20
 weight: 2
 header_transparent: true
-thumbnail: "https://source.unsplash.com/_uPadMxELBc/640x360"
+thumbnail: "assets/images/projects/sales_call.png"
 image: false
-client: "Brisbane City Council"
+client: "Up to 15 Sales Contacts per Company"
 
 hero:
   enabled: true

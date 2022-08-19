@@ -1,14 +1,14 @@
 ---
 layout: list
 collection: "projects"
-title: Projects
-description: "A selection of our work and projects."
+title: Lead Generation Platform
+description: "Curated lead generation specific to your sales needs"
 permalink: "/projects/"
 header_transparent: false
 
 hero:
   enabled: false
-  heading: "Projects"
+  heading: "Lead Generation Platform"
   sub_heading: "A selection of our work and projects."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
@@ -54,12 +54,12 @@ outro:
   enabled: true
   align: left
   image: false
-  heading: "Ready to get started?"
-  sub_heading: "Contact us today for a free quote!"
+  heading: "Ready to enable your sales team?"
+  sub_heading: "Contact West Creek Enterprise for a free consultation!"
   buttons:
     enabled: true
     list:
-      - text: "Get A Quote"
+      - text: "Email john@westcreekenterprise.com"
         url: "/contact"
         external: false
         fa_icon: false

@@ -5,7 +5,7 @@ date: 2018-11-28T15:15:34+10:00
 weight: 4
 header_transparent: true
 fa_icon: false
-icon: "assets/images/services/icons8-design-100.png"
+# icon: "assets/images/services/icons8-design-100.png"
 thumbnail: "https://source.unsplash.com/o1SKqmgSDbg/640x360"
 image: "https://source.unsplash.com/ubIWo074QlU/640x360"
 
