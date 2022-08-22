@@ -55,7 +55,7 @@ defaults:
       permalink: /:basename/
 
 # Theme Config
-google_analytics_id: ""
+google_analytics_id: "UA-238140576-1"
 enable_dark_mode: true
 enable_fixed_header: true
 
