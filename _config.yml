@@ -71,9 +71,9 @@ fonts:
 
 logo:
   logo: "assets/images/logo/wce_orange-transparent.png"
-  logo_mobile: "assets/images/logo/logo-mobile.png"
+  logo_mobile: "assets/images/logo/wce_orange-transparent.png"
   logo_invert: "assets/images/logo/wce_inverted-transparent.png"
-  logo_invert_mobile: "assets/images/logo/logo-invert-mobile.png"
+  logo_invert_mobile: "assets/images/logo/wce_inverted-transparent.png"
   logo_desktop_height: "35px"
   logo_desktop_width: "115px"
   logo_mobile_height: "30px"

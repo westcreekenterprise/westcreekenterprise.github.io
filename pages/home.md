@@ -9,7 +9,7 @@ meta_title: West Creek Enterprise LLC
 hero:
   enabled: true
   heading: "<b>West Creek Enterprise LLC<b>"
-  sub_heading: "We offer end-to-end lead services to empower and maximize the potential of your sales team"
+  sub_heading: "End-to-end lead services to empower and maximize the potential of your sales team. Lead Generation, Data Enrichment, and Analytics Expertise."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false
