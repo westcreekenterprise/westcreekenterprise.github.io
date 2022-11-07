@@ -57,8 +57,8 @@ partners:
 projects:
   enabled: true
   align: right
-  heading: "Lead Generation Platform (LGP)"
-  sub_heading: "Learn how the West Creek Enterprise LGP will drive your salesforce to success"
+  heading: "Lead Generation Platform"
+  sub_heading: "Learn how WCE generates its leads, contacts, and critical information that you use to gain significant business advantage."
   limit: 2
   sort: "weight" # 'date'
   view_more_button_enabled: true
@@ -96,8 +96,8 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: "Reach out to Us!"
-  sub_heading: "Email john@westcreekenterprise.com or call directly anytime at 609-290-9340 for a free consultation"
+  heading: "Ready to Take your Leads Game to the Next Level?"
+  sub_heading: "Email john@westcreekenterprise.com or call 609-290-9340 for an introductory call and a complimentary batch of 100 leads."
   features:
     enabled: false
     list:
