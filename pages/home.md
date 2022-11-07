@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "West Creek Enterprise LLC"
-description: "We offer end-to-end lead services to empower and maximize the potential of your sales team"
+description: "End-to-end lead services to empower and maximize the potential of your sales team. Lead Generation, Data Enrichment, and Analytics Expertise."
 header_transparent: true
 meta_title: West Creek Enterprise LLC
 
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "Our Services"
+  heading: "Services"
   sub_heading: ""
   limit: 3
   sort: "weight" # 'date'
@@ -72,7 +72,7 @@ intro:
   enabled: true
   align: left
   image: "/assets/images/home/sunny_isles_200px.png"
-  heading: "How it Began"
+  heading: "How WCE Began"
   sub_heading: "John Sokol started West Creek Enterprise in July 2022. With 3 years of experience as a data scientist in the equipment finance industry, John builds solutions to the most pressing business problems by creatively applying his passion for data science."
   features:
     enabled: false
