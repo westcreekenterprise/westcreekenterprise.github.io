@@ -4,7 +4,7 @@ body_classes: page-contact
 ---
 
 {% if page.hero.enabled %}
-  {% include components/hero.html 
+  {% include components/hero.html
     heading=page.hero.heading
     sub_heading=page.hero.sub_heading
     text_color=page.hero.text_color
@@ -27,24 +27,6 @@ body_classes: page-contact
   %}
 {% endif %}
 
-<div class="strip strip-border-top">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-lg-8">
-        {% include forms/netlify/form-contact.html %}
-      </div>
-      {% if site.data.contact %}
-        <div class="col-12 col-lg-4">
-          <div class="sidebar">
-            <h5>Contact Info</h5>
-            {% include blocks/contact.html %}
-          </div>
-        </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
-
 {% assign content = content | strip_newlines %}
 {% if content != "" %}
   <div class="strip strip-border-top">
@@ -53,6 +35,14 @@ body_classes: page-contact
         <div class="col-12 col-lg-8">
           <div class="content">{{ content }}</div>
         </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="sidebar">
+            <h5>Contact Info</h5>
+            {% include blocks/contact.html %}
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

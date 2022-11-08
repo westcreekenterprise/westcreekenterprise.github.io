@@ -77,7 +77,7 @@ logo:
   logo_desktop_height: "35px"
   logo_desktop_width: "115px"
   logo_mobile_height: "30px"
-  logo_mobile_width: "65px"
+  logo_mobile_width: "75px"
 
 footer:
   enable_contact_details: true
@@ -98,6 +98,11 @@ footer:
 
 contact:
   show_contact_details: true
+
+contact_form:
+  use_netlify_form: false
+  use_formspree_form: true
+  formspree_endpoint: https://formspree.io/f/xyyvlzlj
 
 enable_sidebar_services: true
 enable_breadcrumbs_services: true
