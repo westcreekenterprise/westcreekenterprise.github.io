@@ -1,12 +1,12 @@
 ---
-title: "Lead Enhancement"
+title: "Data Enrichment"
 description: "Data enrichment services for company and contact attributes to drive important business decisions"
 date: 2022-8-18
 weight: 3
 fa_icon: false
 # icon: "assets/images/services/icons8-color-palette-100.png"
-thumbnail: "assets/images/services/hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-grass-forest-conservation-Growing-Trees-for-Profit-dt-Feature.jpg"
-image: "assets/images/services/hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-grass-forest-conservation-Growing-Trees-for-Profit-dt-Feature.jpg"
+thumbnail: "assets/images/services/data-enrichment.jpg"
+image: "assets/images/services/data-enrichment.jpg"
 ---
 
 # Creating Modern Websites
