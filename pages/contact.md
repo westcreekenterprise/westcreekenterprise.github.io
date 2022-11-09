@@ -5,7 +5,7 @@ body_classes: page-contact
 footer: false
 ---
 
-<form action="/contact/success" data-netlify="true" method="POST" name="contact">
+<form action="https://formspree.io/f/xyyvlzlj" data-netlify="true" method="POST" name="contact">
   <div class="row">
     <div class="col-12 mb-2">
       <h2>Ready for an Introductory Call and a Free Batch of 100 Leads?</h2>

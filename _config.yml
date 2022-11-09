@@ -1,7 +1,8 @@
 # Jekyll Config
-baseurl: "/"
+baseurl: ''
+url: ''
 permalink: pretty
-title: "West Creek Enterprise LLC"
+title: 'West Creek Enterprise LLC'
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -27,74 +28,74 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: ''
       type: services
     values:
       layout: service
   - scope:
-      path: ""
+      path: ''
       type: projects
     values:
       layout: project
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: post
   - scope:
-      path: "images"
+      path: 'images'
     values:
       image: true
   - scope:
-      path: "categories"
+      path: 'categories'
     values:
       permalink: /category/:basename/
   - scope:
-      path: "pages"
+      path: 'pages'
     values:
       permalink: /:basename/
 
 # Theme Config
-google_analytics_id: "UA-238140576-1"
+google_analytics_id: 'UA-238140576-1'
 enable_dark_mode: true
 enable_fixed_header: true
 
 colors:
-  primary: "#993300"
-  secondary: "#ff9c07"
+  primary: '#993300'
+  secondary: '#ff9c07'
 
 fonts:
-  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap"
-  heading: "Source Sans Pro"
-  base: "Source Sans Pro"
-  monospace: "Fira Mono"
+  google_fonts: 'https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap'
+  heading: 'Source Sans Pro'
+  base: 'Source Sans Pro'
+  monospace: 'Fira Mono'
 
 logo:
-  logo: "assets/images/logo/wce_orange-transparent.png"
-  logo_mobile: "assets/images/logo/wce_orange-transparent.png"
-  logo_invert: "assets/images/logo/wce_inverted-transparent.png"
-  logo_invert_mobile: "assets/images/logo/wce_inverted-transparent.png"
-  logo_desktop_height: "35px"
-  logo_desktop_width: "115px"
-  logo_mobile_height: "30px"
-  logo_mobile_width: "75px"
+  logo: 'assets/images/logo/wce_orange-transparent.png'
+  logo_mobile: 'assets/images/logo/wce_orange-transparent.png'
+  logo_invert: 'assets/images/logo/wce_inverted-transparent.png'
+  logo_invert_mobile: 'assets/images/logo/wce_inverted-transparent.png'
+  logo_desktop_height: '35px'
+  logo_desktop_width: '115px'
+  logo_mobile_height: '30px'
+  logo_mobile_width: '75px'
 
 footer:
   enable_contact_details: true
-  contact_details_heading: "Contact"
+  contact_details_heading: 'Contact'
 
   enable_social_media_icons: false
 
   enable_menu_footer_primary: false
-  footer_primary_menu_title: "West Creek Enterprise LLC"
+  footer_primary_menu_title: 'West Creek Enterprise LLC'
   enable_menu_footer_secondary: false
-  footer_secondary_menu_title: "Work"
+  footer_secondary_menu_title: 'Work'
   enable_menu_footer_tertiary: false
-  footer_tertiary_menu_title: "    "
+  footer_tertiary_menu_title: '    '
   enable_bottom_menu: false
 
   enable_copyright: true
-  copyright: "© 2022 West Creek Enterprise LLC"
+  copyright: '© 2022 West Creek Enterprise LLC'
 
 contact:
   show_contact_details: true
@@ -117,16 +118,16 @@ plugins:
 pagination:
   enabled: true
   debug: false
-  collection: "posts"
+  collection: 'posts'
   per_page: 5
-  permalink: "/page/:num/"
-  title: ":title - page :num"
-  sort_field: "date"
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_field: 'date'
   sort_reverse: true
   trail:
     before: 2
     after: 2
-  indexpage: "index"
+  indexpage: 'index'
 
 exclude:
   - Gemfile
