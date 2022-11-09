@@ -77,8 +77,8 @@ logo:
   logo_invert_mobile: 'assets/images/logo/wce_inverted-transparent.png'
   logo_desktop_height: '35px'
   logo_desktop_width: '115px'
-  logo_mobile_height: '30px'
-  logo_mobile_width: '75px'
+  logo_mobile_height: '32px'
+  logo_mobile_width: '100px'
 
 footer:
   enable_contact_details: true
