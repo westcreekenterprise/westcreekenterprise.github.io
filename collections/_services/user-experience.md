@@ -1,5 +1,5 @@
 ---
-title: "Predicive Analytics"
+title: "Predictive Analytics"
 description: "Ranking and prioritization of leads from attributes specific to your company's goals and objectives"
 date: 2018-11-28T15:15:34+10:00
 weight: 2
