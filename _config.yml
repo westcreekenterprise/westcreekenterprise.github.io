@@ -6,6 +6,7 @@ title: 'West Creek Enterprise LLC'
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
+tagline: Lead Generation, Data Enrichment, Analytics Services and Marketing Consulting.
 
 sass:
   indentWidth: 4
@@ -114,6 +115,7 @@ enable_breadcrumbs_projects: true
 plugins:
   - jekyll-environment-variables
   - jekyll-paginate-v2
+  - jekyll-seo-tag
 
 pagination:
   enabled: true
