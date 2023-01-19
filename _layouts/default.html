@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- Remove these two tags when deploy -->
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
+    <!-- <meta name="robots" content="noindex"> -->
+    <!-- <meta name="googlebot" content="noindex"> -->
     <!-- end -->
 
     {% include seo/meta.html %}
@@ -28,7 +28,7 @@
 <div id="header" class='header {% if site.enable_fixed_header %}header-fixed{% endif %} {% if page.header_transparent %}header-transparent{% endif %}  {{ page.header_classes }}'>
   {% include header/header.html %}
 </div>
-<div id="wrapper" class="wrapper">     
+<div id="wrapper" class="wrapper">
   {{ content }}
 </div>
 {% include footer/footer.html %}
