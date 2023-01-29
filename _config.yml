@@ -2,7 +2,7 @@
 baseurl: ''
 url: ''
 permalink: pretty
-title: 'West Creek Enterprise LLC'
+title: 'West Creek Enterprise | WCE'
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
