@@ -1,14 +1,14 @@
 ---
 layout: home
 permalink: '/'
-title: 'West Creek Enterprise LLC'
+title: 'West Creek Enterprise | WCE'
 description: 'End-to-end lead services to empower and maximize the potential of your sales team. Lead Generation, Data Enrichment, and Analytics Expertise.'
 header_transparent: true
-meta_title: West Creek Enterprise LLC
+meta_title: West Creek Enterprise | WCE
 
 hero:
   enabled: true
-  heading: '<b>West Creek Enterprise LLC<b>'
+  heading: '<b>West Creek Enterprise | WCE<b>'
   sub_heading: 'End-to-end lead services to empower and maximize the potential of your sales team. Lead Generation, Data Enrichment, and Analytics Expertise.'
   text_color: '#FFFFFF'
   background_color: '#1d2830'
