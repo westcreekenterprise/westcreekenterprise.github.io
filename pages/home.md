@@ -96,7 +96,7 @@ outro:
   align: center
   image: false
   heading: 'Ready to Take your Leads Game to the Next Level?'
-  sub_heading: 'Email john@westcreekenterprise.com or call 609-290-9340 for an introductory call and a complimentary batch of 100 leads.'
+  sub_heading: 'Email john@westcreekenterprise.com or call 609-290-9340 to schedule an introductory call.'
   features:
     enabled: false
     list:
