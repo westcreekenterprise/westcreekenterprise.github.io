@@ -8,7 +8,7 @@ footer: false
 <form action="https://formspree.io/f/xyyvlzlj" data-netlify="true" method="POST" name="contact">
   <div class="row">
     <div class="col-12 mb-2">
-      <h2>Ready for an Introductory Call and a Free Batch of 100 Leads?</h2>
+      <h2>Ready for an Introductory Call?</h2>
     </div>
     <div class="col-md-6">
       <div class="form-group">
